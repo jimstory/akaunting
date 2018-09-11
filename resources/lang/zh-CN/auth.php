@@ -20,11 +20,17 @@ return [
         'new_confirm'       => '确认新的密码',
     ],
     'error' => [
-        'self_delete'       => '错误：无法删除自己！'
+        'self_delete'       => '错误：无法删除自己！',
+        'no_company'        => '错误: 你账户下没有公司，请联系管理员.',
     ],
 
     'failed'                => '账号或者密码错误',
     'disabled'              => '此账号已被停用，请联系管理员',
     'throttle'              => '尝试登录次数过多，请在 :seconds 秒后再试。',
+    'notification' => [
+        'message_1'     => '您收到此电子邮件是因为我们收到了您帐户的密码重置请求.',
+        'message_2'     => '如果您未请求重置密码，则无需进一步操作.',
+        'button'        => '重置密码',
+    ],
 
 ];

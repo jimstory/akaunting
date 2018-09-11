@@ -4,6 +4,7 @@ return [
 
     'title'                 => 'API Token',
     'api_token'             => 'Token',
+    'my_apps'               => '我的应用',
     'top_paid'              => '最佳销售',
     'new'                   => '新增',
     'top_free'              => '最佳免费',
@@ -40,9 +41,18 @@ return [
         'install'           => '安裝 :module檔案中。',
     ],
 
+    'badge' => [
+        'installed' => '安装成功',
+    ],
+
     'button' => [
         'uninstall'         => '移除',
         'disable'           => '停用',
         'enable'            => '啟用',
+    ],
+
+    'my' => [
+        'purchased' => '已购买',
+        'installed' => '已安装',
     ],
 ];

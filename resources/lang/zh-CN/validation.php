@@ -101,6 +101,8 @@ return [
         'attribute-name' => [
             'rule-name' => '自定信息',
         ],
+        'invalid_currency' => ':attribute code 无效.',
+        'invalid_amount'   => ':attribute 数量 无效.',
     ],
 
     /*

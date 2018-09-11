@@ -100,11 +100,15 @@ return [
     'overdue'               => '已逾期',
     'partially'             => '部分',
     'partially_paid'        => '部分付款',
+    'export'                => '导出',
+    'enable'                => '启用',
+    'disable'               => '禁用',
 
     'title' => [
         'new'               => '新增 :type',
         'edit'              => '编辑 :type',
     ],
+
     'form' => [
         'enter'             => '输入 :field',
         'select' => [
