@@ -90,7 +90,7 @@ return [
     'help'                  => '帮助',
     'all'                   => '全部',
     'all_type'              => '所有 :type',
-    'upcoming'              => '即将到来',
+    'upcoming'              => '待付账款',
     'created'               => '已创建',
     'id'                    => 'ID',
     'more_actions'          => '更多',
