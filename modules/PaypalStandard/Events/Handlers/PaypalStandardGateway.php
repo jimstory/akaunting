@@ -18,6 +18,6 @@ class PaypalStandardGateway
 
         $setting['code'] = 'paypalstandard';
 
-        return [$setting];
+        return [];
     }
 }

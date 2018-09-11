@@ -58,7 +58,9 @@ class Header
             }
         }
 
-        $updates = count(Updater::all());
+        // $updates = count(Updater::all());
+        // TODEL:放弃远程更新
+        $updates = 0;
 
         $this->loadSuggestions();
 
