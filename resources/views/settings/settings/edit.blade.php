@@ -110,8 +110,8 @@
                         {{ Form::selectGroup('admin_theme', trans('settings.appearance.theme'), 'paint-brush', ['skin-green-light' => trans('settings.appearance.light'), 'skin-black' => trans('settings.appearance.dark')], null, []) }}
 
                         {{ Form::selectGroup('list_limit', trans('settings.appearance.list_limit'), 'columns', ['10' => '10', '25' => '25', '50' => '50', '100' => '100'], null, []) }}
-
-                        {{ Form::radioGroup('use_gravatar', trans('settings.appearance.use_gravatar')) }}
+                        <!-- TODEL:去除Gravatar -->
+                        <!-- {{ Form::radioGroup('use_gravatar', trans('settings.appearance.use_gravatar')) }} -->
                     </div>
 
                     <div class="tab-pane tab-margin" id="system">
